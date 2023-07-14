@@ -4,12 +4,15 @@
 
 .top {
   grid-area: header;
+  grid-row-start: header-start;
+  grid-row-end: header-end;
 }
-.bottom {
-  margin-bottom:1fr;
+.bottom { 
+  grid-area: footer;
+  grid-row-start: footer-start;
+  grid-row-end: footer-end;
 }
 .name {
-  grid-area: footer;
 }
 
 article {
