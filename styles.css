@@ -37,4 +37,6 @@ img {
     "header header header header"
     "sidebar main main extra"
     "footer footer footer footer";
+  grid-template-rows: [header-start] 40% [header-end main-start] 35% [main-end footer-start] 25% [footer-end];
 }
+
