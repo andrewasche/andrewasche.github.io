@@ -4,23 +4,23 @@
 
 .top {
   grid-area: header;
-  grid-row-start: header-start;
-  grid-row-end: main-start;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 .bottom { 
   grid-area: footer;
-  grid-row-start: footer-start;
-  grid-row-end: footer-end;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 .name {
-    text-align: center;
+    text-align: ce;
 }
 
 article {
   display: grid;
   grid-area: main;
-  grid-row-start: footer-start;
-  grid-row-end: main-end;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 img {
   height: 85vh;
