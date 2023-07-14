@@ -5,7 +5,7 @@
 .top {
   grid-area: header;
   grid-row-start: header-start;
-  grid-row-end: header-end;
+  grid-row-end: main-start;
 }
 .bottom { 
   grid-area: footer;
@@ -13,12 +13,13 @@
   grid-row-end: footer-end;
 }
 .name {
+    text-align: center;
 }
 
 article {
   display: grid;
   grid-area: main;
-  grid-row-start: main-start;
+  grid-row-start: footer-start;
   grid-row-end: main-end;
 }
 img {
