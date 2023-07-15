@@ -37,11 +37,11 @@ img {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "[header-start] header header header header 45fr [header-end]"
-    "[main-start]sidebar main main extra 30fr [main-end]"
-    "[footer-start] footer footer footer footer 25fr [footer-end]";
+  grid-template-columns: ; 
+  grid-template:
+    [header-start] "header header header header" 45fr [header-end]
+    [main-start] "sidebar main main extra" 30fr [main-end]
+    [footer-start] "footer footer footer footer" 25fr [footer-end]
+    / 1fr 1fr 1fr 1fr;
 }
 
