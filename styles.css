@@ -13,7 +13,7 @@
   grid-row-end: 4;
 }
 .name {
-    text-align: ce;
+    text-align: center;
 }
 
 article {
@@ -40,9 +40,8 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
-    "header header header header"
-    "sidebar main main extra"
-    "footer footer footer footer";
-  grid-template-rows: [header-start] 35% [header-end main-start] 45% [main-end footer-start] 20% [footer-end];
+    "[header-start] header header header header 45fr [header-end]"
+    "[main-start]sidebar main main extra 30fr [main-end]"
+    "[footer-start] footer footer footer footer 25fr [footer-end]";
 }
 
