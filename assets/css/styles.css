@@ -30,8 +30,20 @@ h3 {
   font-family:monospace;
   text-align: center;
 }
+.socialContainer {
+  display: grid;
+  grid-template-columns: ; 
+  grid-template:
+    [social-start] "extra social extra" 100fr [social-end]
+    / 1fr 84px 1fr;
+}
+.social {
+  display: grid;
+  grid-area: social;
+}
 .githubSocial {
-  max-width:84px
+  max-width:84px;
+  height: auto;
 }
 
 article {
