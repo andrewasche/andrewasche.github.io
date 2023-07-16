@@ -30,6 +30,9 @@ h3 {
   font-family:monospace;
   text-align: center;
 }
+.githubSocial {
+  max-width:84px
+}
 
 article {
   display: grid;
