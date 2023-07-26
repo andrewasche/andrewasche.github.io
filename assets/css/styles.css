@@ -1,7 +1,14 @@
 body {
-  /* width: 100vw;
-  height: 100vh; */
+  width: 100vw;
+  height: 100vh;
   background-color:#000;
+  display: grid;
+  grid-template-columns: ; 
+  grid-template:
+    [header-start] "header header header header" 45fr [header-end]
+    [main-start] "sidebar main main extra" 30fr [main-end]
+    [footer-start] "footer footer footer footer" 25fr [footer-end]
+    / 1fr 1fr 1fr 1fr;
 }
 .container {
   display: grid;
@@ -68,11 +75,4 @@ img {
 } 
 
 .container {
-  display: grid;
-  grid-template-columns: ; 
-  grid-template:
-    [header-start] "header header header header" auto [header-end]
-    [main-start] "sidebar main main extra" 30fr [main-end]
-    [footer-start] "footer footer footer footer" auto [footer-end]
-    / 1fr 1fr 1fr 1fr;
 }
