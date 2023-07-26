@@ -71,8 +71,8 @@ img {
   display: grid;
   grid-template-columns: ; 
   grid-template:
-    [header-start] "header header header header" 45fr [header-end]
+    [header-start] "header header header header" auto [header-end]
     [main-start] "sidebar main main extra" 30fr [main-end]
-    [footer-start] "footer footer footer footer" 25fr [footer-end]
+    [footer-start] "footer footer footer footer" auto [footer-end]
     / 1fr 1fr 1fr 1fr;
 }
